@@ -1,1 +1,46 @@
 /* Add CSS styling here */
+header {
+    background-color: #43C59E;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+footer {
+    background-color: #43C59E;
+    text-align: center;
+    padding: 20px;
+}
+.topsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.description {
+    padding: 20px;
+    width: 50%;
+}
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 20px;
+}
+.portfolio-element {
+    text-align: center;
+    
+}
+button {
+    background-color: whitesmoke;
+    color: #14453D;
+    border: #14453D solid 1px;
+    padding: 5px 10px;
+}
+button:hover {
+    background-color: 14453D;
+    color: #43C59E;
+    border: whitesmoke solid 1px;
+}
+button a {
+    text-decoration: none;
+    color: inherit;
+}
